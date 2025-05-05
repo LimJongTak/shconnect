@@ -1,1 +1,1 @@
-# shconnect
+![logo](public/assets/logo.png)
