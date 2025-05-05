@@ -44,114 +44,114 @@ const dummyPlaces: Place[] = [
     name: '이디야커피 순천대정문점',
     category: '카페',
     address: '전남 순천시 중앙로 270 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=이디야커피 순천대정문점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA4MjVfMTU0%2FMDAxNjkyOTAwMzQwNjgx.lsZ77PAw9ny7DqUs4zksTPL1kar53g0D6AGVuYsa_ykg.MGWnZhOCrdBo-hAzpwie_trG6MioHt9ILVjjGK6Iw7Ug.PNG.from55%2F%25C0%25CC%25B5%25F0%25BE%25C6%25C4%25BF%25C7%25C71.png&type=sc960_832',
+    link: 'https://map.naver.com/p/search/%EC%9D%B4%EB%94%94%EC%95%BC%20%EC%BB%A4%ED%94%BC%20%EC%88%9C%EC%B2%9C%EB%8C%80/place/1597297281?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '하이오커피 순천대점',
     category: '카페',
     address: '전남 순천시 중앙로 268 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=하이오커피 순천대점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221109_19%2F1668002799163UYpv9_JPEG%2FKakaoTalk_20221109_230551502.jpg',
+    link: 'https://map.naver.com/p/search/%ED%95%98%EC%9D%B4%EC%98%A4%EC%BB%A4%ED%94%BC%20%EC%88%9C%EC%B2%9C%EB%8C%80/place/1360182805?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
   {
     name: '설빙 전남순천대점',
     category: '카페',
     address: '전남 순천시 순천대2길 10-10',
-    imageUrl: 'https://via.placeholder.com/120x120?text=설빙 전남순천대점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMzFfMTgy%2FMDAxNzQzNDAxNDEzMDY2.hOrtoirgaKWeJAKKsRs_acnjM5_KOz2D_RWYYc3bmRwg.WgIm7VBZWjU9vPauA9_mNwXqPNS197YmkcFp-gJ691sg.JPEG%2F3.jpg&type=sc960_832',
+    link: 'https://map.naver.com/p/search/%EC%84%A4%EB%B9%99/place/34007267?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '토끼신사',
     category: '카페',
     address: '전남 순천시 환선로 154 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=토끼신사',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221114_41%2F1668404227721lNoi4_JPEG%2F445C8AAD-8239-4703-880F-31F346800C19.jpeg',
+    link: 'https://map.naver.com/p/search/%ED%86%A0%EB%81%BC%EC%8B%A0%EC%82%AC/place/31986129?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '빽다방 순천대점',
     category: '카페',
     address: '전남 순천시 삼산2길 33 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=빽다방 순천대점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F04%2F21%2F13%2F042113691bfdec05578af6398160aa5d.jpg&type=sc960_832',
+    link: 'https://map.naver.com/p/search/%EB%B9%BD%EB%8B%A4%EB%B0%A9/place/1850397639?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '순천달보드레',
     category: '카페',
     address: '전남 순천시 순천대1길 32',
-    imageUrl: 'https://via.placeholder.com/120x120?text=순천달보드레',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230417_245%2F1681697708500x9KXy_JPEG%2F8399DB08-AA88-491F-8786-5238FCDD06E5.jpeg',
+    link: 'https://map.naver.com/p/search/%EC%88%9C%EC%B2%9C%EB%8B%AC%EB%B3%B4%EB%93%9C%EB%A0%88/place/1886847381?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '라붐',
     category: '카페',
     address: '전남 순천시 중앙로 248-1 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=라붐',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250303_291%2F1740971069367NUF0z_JPEG%2F1000016074.jpg',
+    link: 'https://map.naver.com/p/search/%EB%9D%BC%EB%B6%90/place/1075310523?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '에이소울',
     category: '카페',
     address: '전남 순천시 중앙로 244 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=에이소울',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200324_168%2F158502796971183urt_JPEG%2FK7qGhWLv-QqTzHqmrB-eRkCc.jpg',
+    link: 'https://map.naver.com/p/search/%EC%97%90%EC%9D%B4%EC%86%8C%EC%9A%B8/place/38275919?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
   {
     name: '마이요거트립 순천대점',
     category: '카페',
     address: '전남 순천시 순천대1길 36-12',
-    imageUrl: 'https://via.placeholder.com/120x120?text=마이요거트립 순천대점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240131_121%2F1706682751682T1AyB_JPEG%2FKakaoTalk_20240131_152009197.jpg',
+    link: 'https://map.naver.com/p/search/%EB%A7%88%EC%9D%B4%EC%9A%94%EA%B1%B0%ED%8A%B8%EB%A6%BD%20%EC%88%9C%EC%B2%9C%EB%8C%80/place/1686609786?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
   {
     name: '벤엔제리스아이스크림 순천대DV점',
     category: '카페',
     address: '전남 순천시 순천대1길 36-12',
-    imageUrl: 'https://via.placeholder.com/120x120?text=벤엔제리스아이스크림 순천대DV점',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240922_217%2F1727012128632L5Q5b_PNG%2F%25BA%25A5%25BE%25D8%25C1%25A6%25B8%25AE%25BD%25BA_%25BF%25CD%25BA%25ED%25B7%25AF.png&type=sc960_832',
+    link: 'https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=%2C%2C537811%2C927642&rt1=&rt2=%EB%8B%A8%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90&rtIds=%2C&rtTypes=%2C'
   },
   {
     name: '코드0.1',
     category: '카페',
     address: '전남 순천시 순천대1길 36-20',
-    imageUrl: 'https://via.placeholder.com/120x120?text=코드0.1',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MTVfMjI0%2FMDAxNzQ0NzA0NTY3MDQ4.0OnW4QybuyeRTUDokGC5jvgnduiORVgxYbRANp09S8Yg.jEO5h78Pg0je0qhXMf0gZp8V_ZkNjh2S3wabaYkRFIog.JPEG%2FKakaoTalk_20250415_125707803_02.jpg',
+    link: 'https://map.naver.com/p/search/%EC%BD%94%EB%93%9C0.1/place/1865735126?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
   {
     name: '비레스트',
     category: '카페',
     address: '전남 순천시 중앙로 238-1 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=비레스트',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_13%2F1585114780223khm83_JPEG%2FxjFoeATTMU2JF8G4hfDS6NZj.jpg',
+    link: 'https://map.naver.com/p/search/%EB%B9%84%EB%A0%88%EC%8A%A4%ED%8A%B8/place/38711566?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '크레메',
     category: '카페',
     address: '전남 순천시 순천대1길 36-55 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=크레메',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210503_166%2F1620031586527wSNQ3_JPEG%2FbuYgc9HF-v0eTSGNGIoRrzqN.jpg',
+    link: 'https://map.naver.com/p/search/%ED%81%AC%EB%A0%88%EB%A9%94/place/1494275962?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '엠커피하우스',
     category: '카페',
     address: '전남 순천시 중앙로 232 다목적홀 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=엠커피하우스',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220901_22%2F1662022458831xJc9i_JPEG%2FF6AB41E3-80D3-46ED-A931-558E1B68A760.jpeg',
+    link: 'https://map.naver.com/p/entry/place/1219220571?c=15.00,0,0,0,dh'
   },
   {
     name: '크로커스',
     category: '카페',
     address: '전남 순천시 북문길 176',
-    imageUrl: 'https://via.placeholder.com/120x120?text=크로커스',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMThfMjcg%2FMDAxNzAwMzEwMzczNjEz.BtRCRIJtgXRkkBN18VkFVjv-sdyRq76qMjdPWK5Q7O4g.ZQx9sSMHJCNLwfe45ol5n-bmX48QCIDIi7S-Y2eYYDgg.JPEG.yujin1948%2FKakaoTalk_20231118_212413128_01.jpg',
+    link: 'https://map.naver.com/p/search/%ED%81%AC%EB%A1%9C%EC%BB%A4%EC%8A%A4/place/1634139293?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   }
 ,
   {
     name: '꾸꾸',
     category: '카페',
     address: '전남 순천시 북정4길 63 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=꾸꾸',
-    link: 'https://map.naver.com'
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220923_10%2F1663916586408O0SLv_JPEG%2FD4125E24-D488-4D60-861A-6D565E590A10.jpeg',
+    link: 'https://map.naver.com/p/search/%EA%BE%B8%EA%BE%B8/place/1321102820?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   }
 ,
 {
