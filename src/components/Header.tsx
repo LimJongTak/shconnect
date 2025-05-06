@@ -2,14 +2,7 @@ import React from 'react';
 
 const Header: React.FC = () => {
   return (
-    <header
-      style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center', // 가로로 중앙 정렬
-        padding: '1rem',
-      }}
-    >
+    <header>
       <img
         src="/assets/logo.png" // <- 이 경로는 public 폴더 안의 assets 폴더 기준입니다
         alt="로고"
