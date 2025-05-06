@@ -30,7 +30,7 @@ const dummyPlaces: Place[] = [
     name: '데일리커피',
     category: '카페',
     address: '전남 순천시 삼산로 21 1층',
-    imageUrl: 'https://via.placeholder.com/120x120?text=데일리커피',
+    imageUrl: '/assets/styles/daily.png',
     link: 'https://place.map.kakao.com/1860894765'
   },
   {

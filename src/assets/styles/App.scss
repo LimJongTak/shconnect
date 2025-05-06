@@ -15,6 +15,9 @@ body {
   margin: 0;
   font-family: 'Noto Sans KR', sans-serif;
   background-color: #f4f6f9;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 header {
@@ -41,18 +44,9 @@ header {
 }
 
 .main-content {
-  flex: 1 0 auto;
+  flex-grow: 1; /* Allow content to take up remaining space */
   text-align: center;
   padding: 4rem 2rem;
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  p {
-    font-size: 1.1rem;
-    margin-top: 0.5rem;
-  }
 }
 
 footer {
@@ -61,8 +55,21 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
   flex: 0 0 auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
+.fade-container {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+}
+
+.fade-container.show {
+  opacity: 1;
+}
+
+/* Mobile responsive */
 @media (max-width: 768px) {
   header nav ul {
     flex-direction: column;
@@ -72,7 +79,6 @@ footer {
 
   .main-content {
     padding: 2rem 1rem;
-
     h1 {
       font-size: 1.5rem;
     }
@@ -91,11 +97,16 @@ footer {
   }
 }
 
-.fade-container {
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
+/* Footer always at the bottom */
+body {
+  display: flex;
+  flex-direction: column;
 }
 
-.fade-container.show {
-  opacity: 1;
+.main-content {
+  flex-grow: 1; /* Allow content to grow and push footer down */
+}
+
+footer {
+  margin-top: auto; /* Push footer to the bottom */
 }
