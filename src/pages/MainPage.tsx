@@ -158,148 +158,148 @@ const dummyPlaces: Place[] = [
   name: '기우',
   category: '주점',
   address: '전남 순천시 순천대1길 28 기우',
-  imageUrl: 'https://via.placeholder.com/120x120?text=기우',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240521_254%2F1716274751210hOuBM_JPEG%2FKakaoTalk_20240521_155824107.jpg',
+  link: 'https://map.naver.com/p/search/%EA%B8%B0%EC%9A%B0/place/1559075918'
 },
 {
   name: '퍼즐',
   category: '주점',
   address: '전남 순천시 순천대2길 10-17 2층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=퍼즐',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230519_42%2F1684472265794jtlOv_JPEG%2FIMG_5927.jpeg',
+  link: 'https://map.naver.com/p/search/%ED%8D%BC%EC%A6%90/place/1728424311'
 },
 {
   name: '코코카이',
   category: '주점',
   address: '전남 순천시 중앙로 242 (석현동)',
-  imageUrl: 'https://via.placeholder.com/120x120?text=코코카이',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA2MTFfNTgg%2FMDAxNzE4MDMxNjg2MTMz.KFC8TVH37Nw1zER5hx4Myc6Q-3e7B6D8wSMJUL-q-B4g.E08ECfArn6DwTEOC-z36CiNHkcTSoz-T7ABCE7K4ij0g.JPEG%2FIMG_2597.JPG',
+  link: 'https://map.naver.com/p/search/%EC%BD%94%EC%BD%94%EC%B9%B4%EC%9D%B4/place/1453274593'
 },
 {
-  name: '코어 분식&포차',
+  name: '코어 분식',
   category: '주점',
   address: '전남 순천시 중앙로 232 1층 코어 분식&포차',
-  imageUrl: 'https://via.placeholder.com/120x120?text=코어+분식&포차',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250102_41%2F1735802553071KQ1oR_JPEG%2F1000014001.jpg',
+  link: 'https://map.naver.com/p/search/%EC%BD%94%EC%96%B4%20%EB%B6%84%EC%8B%9D/place/1583759276'
 },
 {
   name: '칵테일 스토리',
   category: '주점',
   address: '전남 순천시 중앙로 268 1층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=칵테일+스토리',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MTNfMTQz%2FMDAxNzQ0NTMwMTMwNjk3.tNJJY8WU5wplq3v_OwtPrzHvI2xJ7H6szgbU_M-KNwEg.8r6XiN2RXYXUHZL0F3h8LxcREswFsuB4f_TBAuOk2h4g.JPEG%2FIMG_7800.jpg',
+  link: 'https://map.naver.com/p/search/%EC%B9%B5%ED%85%8C%EC%9D%BC%20%EC%8A%A4%ED%86%A0%EB%A6%AC/place/1942322883'
 },
 {
-  name: '에델바이스 주점',
+  name: '에델바이스',
   category: '주점',
   address: '전남 순천시 순천대1길 34 석현동 96-34번지',
-  imageUrl: 'https://via.placeholder.com/120x120?text=에델바이스+주점',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231030_127%2F16986674912428hIsn_JPEG%2F%25BF%25A1%25B5%25A8%25B9%25D9%25C0%25CC%25BD%25BA_%25B4%25EB%25C7%25A5_%25BB%25E7%25C1%25F8_20231030_205932.jpg',
+  link: 'https://map.naver.com/p/search/%EC%97%90%EB%8D%B8%EB%B0%94%EC%9D%B4%EC%8A%A4/place/1552722763'
 },
 {
-  name: '델라 1호점',
+  name: '델라',
   category: '주점',
   address: '전남 순천시 순천대2길 16',
-  imageUrl: 'https://via.placeholder.com/120x120?text=델라+1호점',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjNfMjU5%2FMDAxNjY2NDk3NDUxNTcy.7AB7y2nXRfgH_EHwzs4MMrO_Vn6IxL3Y6BCnHR0rr-og.5RFKH4wwBp1OmqIHl9IU7WjXlViv9yuOS67GSTyK6i0g.JPEG.mj9898z%2FIMG_2295.JPG',
+  link: 'https://map.naver.com/p/search/%EB%8D%B8%EB%9D%BC/place/1183491815'
 },
 {
-  name: '다이닝타몽 순천대점',
+  name: '다이닝타몽',
   category: '주점',
   address: '전남 순천시 순천대2길 10-5 1층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=다이닝타몽+순천대점',
-  link: 'https://map.naver.com'
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MDRfMjg4%2FMDAxNzQ2MzM5MjcxNjU0.o_cL-eG8K3Oh5saMo--VwmJkjper1zebq8VndtFOKmgg.HG-0dMIYEUQm4eyEc7mDwSFsXX-EzLWYmafa921cEwIg.JPEG%2FIMG_7907.jpg',
+  link: 'https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EB%8B%9D%ED%83%80%EB%AA%BD/place/2028206743'
 },
 {
-  name: '1도씨맥주 순천대점',
-  category: '주점',
-  address: '전남 순천시 순천대2길 6-1 상가',
-  imageUrl: 'https://via.placeholder.com/120x120?text=1도씨맥주+순천대점',
-  link: 'https://map.naver.com'
+name: '1도씨 맥주',
+category: '주점',
+address: '전남 순천시 역전길 17-1',
+imageUrl: 'https://ldb-phinf.pstatic.net/20220924_61/1664026293398cel4F_JPEG/image.jpg',
+link: 'https://map.naver.com/p/search/1%EB%8F%84%EC%94%A8%20%EB%A7%A5%EC%A3%BC/place/1636081055?c=13.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '술창고',
-  category: '주점',
-  address: '전남 순천시 순천대1길 36-34',
-  imageUrl: 'https://via.placeholder.com/120x120?text=술창고',
-  link: 'https://map.naver.com'
+name: '술창고',
+category: '주점',
+address: '전남 순천시 중앙로 156',
+imageUrl: 'https://ldb-phinf.pstatic.net/20170929_167/1506658611619xNUY6_JPEG/CL7w1XVk2TfRE9_eIVH_JcxF.jpg',
+link: 'https://map.naver.com/p/search/%EC%88%A0%EC%B0%BD%EA%B3%A0/place/1074693374?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '미스터슈',
-  category: '주점',
-  address: '전남 순천시 중앙로 238',
-  imageUrl: 'https://via.placeholder.com/120x120?text=미스터슈',
-  link: 'https://map.naver.com'
+name: '미스터슈',
+category: '주점',
+address: '전남 순천시 중앙로 172 1층',
+imageUrl: 'http://blogfiles.naver.net/MjAyNDAxMjVfMjgw/MDAxNzA2MTg4NTE2ODI3.ATTBefd7O1vZVYvZaOjQvqLVVCtlLuoxy1xnIHyIS3sg.JVl0SmJFoszndmcWOwVLgb-2uuyGIqoMES4h53qvXawg.JPEG.alonepray%2F20240124%25A3%25DF185957.jpg',
+link: 'https://map.naver.com/p/search/%EB%AF%B8%EC%8A%A4%ED%84%B0%EC%8A%88/place/32429522?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '낙우송',
-  category: '주점',
-  address: '전남 순천시 순천대1길 24',
-  imageUrl: 'https://via.placeholder.com/120x120?text=낙우송',
-  link: 'https://map.naver.com'
+name: '낙우송',
+category: '주점',
+address: '전남 순천시 중앙로 171',
+imageUrl: 'https://ldb-phinf.pstatic.net/20200325_278/1585115111893jBB1E_JPEG/X6Lk1JkcqCqtP2OneYyOYr84.jpg',
+link: 'https://map.naver.com/p/search/%EB%82%99%EC%9A%B0%EC%86%A1/place/36560422?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '빵꼴',
-  category: '주점',
-  address: '전남 순천시 순천대1길 28 빵꼴',
-  imageUrl: 'https://via.placeholder.com/120x120?text=빵꼴',
-  link: 'https://map.naver.com'
+name: '빵꼴',
+category: '주점',
+address: '전남 순천시 역전길 23-1',
+imageUrl: 'https://ldb-phinf.pstatic.net/20250228_9/1740671923546BEMne_JPEG/IMG_1172.jpeg',
+link: 'https://map.naver.com/p/search/%EB%B9%B5%EA%BC%B4/place/1224334125?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-  name: '더박스',
-  category: '주점',
-  address: '전남 순천시 순천대2길 26 2층 더박스',
-  imageUrl: 'https://via.placeholder.com/120x120?text=더박스',
-  link: 'https://map.naver.com'
+name: '더박스 순천',
+category: '주점',
+address: '전남 순천시 역전길 24-1',
+imageUrl: 'http://blogfiles.naver.net/MjAyMTAzMTdfMjQx/MDAxNjE1OTcwNTYwMDU3.XHbjKSuhkhXxhGwKAElKfAToMJW9eEpMQfn3lzLMeREg.ejsP_nqSagd5WAM7CA8TcSPq8fV28CoLhTshmIY_Xp0g.JPEG.tchoo_a%2FKakaoTalk_20210316_144708212_02.jpg',
+link: 'https://map.naver.com/p/search/%EB%8D%94%EB%B0%95%EC%8A%A4%20%EC%88%9C%EC%B2%9C/place/1934647697?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-  name: '만카이',
-  category: '주점',
-  address: '전남 순천시 중앙로 248-1 1동 1층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=만카이',
-  link: 'https://map.naver.com'
+name: '만카이',
+category: '주점',
+address: '전남 순천시 중앙로 139 1층',
+imageUrl: 'https://ldb-phinf.pstatic.net/20230826_5/1693011839748QkqEI_JPEG/1000001556.jpg',
+link: 'https://map.naver.com/p/search/%EB%A7%8C%EC%B9%B4%EC%9D%B4/place/1924929065?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '뚱땡이포차',
-  category: '주점',
-  address: '전남 순천시 순천대2길 22 1층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=뚱땡이포차',
-  link: 'https://map.naver.com'
+name: '뚱땡이포차',
+category: '주점',
+address: '전남 순천시 역전2길 22',
+imageUrl: 'https://ldb-phinf.pstatic.net/20250210_121/17391311326190sezJ_JPEG/IMG_3384.jpeg',
+link: 'https://map.naver.com/p/search/%EB%9A%B1%EB%95%A1%EC%9D%B4%ED%8F%AC%EC%B0%A8/place/1646755376?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '추카추카',
-  category: '주점',
-  address: '전남 순천시 순천대2길 24',
-  imageUrl: 'https://via.placeholder.com/120x120?text=추카추카',
-  link: 'https://map.naver.com'
+name: '추카추카',
+category: '주점',
+address: '전남 순천시 중앙로 212',
+imageUrl: 'http://cafefiles.naver.net/MjAyMDAyMjZfMjc5/MDAxNTgyNzIyNDUzMjM3.fpRTvo0PNN6rhMT16Z0m6kCK28z0R2jZBqA3yQGUn7Eg.xID5YU3di_UnzIimVkMm6JIjj-B2MsJyOTAQ3xNPMYAg.JPEG/20200223_175644.jpg',
+link: 'https://map.naver.com/p/search/%EC%B6%94%EC%B9%B4%EC%B6%94%EC%B9%B4/place/17030156?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '무궁화주택 순천대점',
-  category: '주점',
-  address: '전남 순천시 중앙로 270 2층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=무궁화주택+순천대점',
-  link: 'https://map.naver.com'
+name: '무궁화주택',
+category: '주점',
+address: '전남 순천시 장명로 45',
+imageUrl: 'https://play-lh.googleusercontent.com/4ba13O4KLwYABQ2KvFaDpKsc_GuyxwItIRBH4L9sg4jciAnFD4KOr2eU1_tZxoz5pg',
+link: 'https://map.naver.com/p/search/%EB%AC%B4%EA%B6%81%ED%99%94%EC%A3%BC%ED%83%9D%20%EC%88%9C%EC%B2%9C/place/1614596220?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-  name: '투다리 순대점',
-  category: '주점',
-  address: '전남 순천시 순천대2길 14',
-  imageUrl: 'https://via.placeholder.com/120x120?text=투다리+순대점',
-  link: 'https://map.naver.com'
+name: '투다리 순천',
+category: '주점',
+address: '전남 순천시 중앙로 132',
+imageUrl: 'http://blogfiles.naver.net/MjAyMjExMDJfMzYg/MDAxNjY3Mzc1MjczODY4.uY8ojxPhY9PUemp9SzBdnEJ7X7uQkkFpRUIPIvk-eeog.cIeIO7e00YsdXSuhKTkSsRjT044DXZHV1yz-t6EQ_bcg.JPEG.woxock_%2FIMG_7470.jpg',
+link: 'https://map.naver.com/p/search/%ED%88%AC%EB%8B%A4%EB%A6%AC%20%EC%88%9C%EC%B2%9C/place/11762914?c=11.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '아리랑',
-  category: '주점',
-  address: '전남 순천시 매산큰길 101',
-  imageUrl: 'https://via.placeholder.com/120x120?text=아리랑',
-  link: 'https://map.naver.com'
+name: '아리랑',
+category: '주점',
+address: '전남 순천시 중앙로 229',
+imageUrl: 'http://blogfiles.naver.net/MjAyNDEwMTdfMTAx/MDAxNzI5MTUxNTY3MTg0.qDNGNSCdCF0-NozpMxe2d9P3vIC_1Ugi_URC9Ph9mwIg._3ocSEBY9eJIX5WDlFCl0C2VjyuQXn-BYC24XvIqgacg.JPEG/IMG_7337.JPG',
+link: 'https://map.naver.com/p/search/%EC%95%84%EB%A6%AC%EB%9E%91/place/19583383?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-  name: '술술',
-  category: '주점',
-  address: '전남 순천시 순천대1길 34 1층',
-  imageUrl: 'https://via.placeholder.com/120x120?text=술술',
-  link: 'https://map.naver.com'
+name: '술술',
+category: '주점',
+address: '전남 순천시 중앙로 225 2층',
+imageUrl: 'https://ldb-phinf.pstatic.net/20230829_293/1693278333190U4gpB_JPEG/20230804_194511.jpg',
+link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
   name: '이파리 순대점',
