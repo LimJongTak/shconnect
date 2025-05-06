@@ -645,7 +645,7 @@ const MainPage: React.FC = () => {
   const [keyword, setKeyword] = useState('');
   const [filteredPlaces, setFilteredPlaces] = useState<Place[]>([]);
   const [selectedTab, setSelectedTab] = useState<'search' | 'intro'>('search');
-  const [selectedCategory, setSelectedCategory] = useState<string>(''); // Add selectedCategory state
+  const [selectedCategory, setSelectedCategory] = useState<string>(''); // 선택된 카테고리 상태 추가
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -656,8 +656,7 @@ const MainPage: React.FC = () => {
   };
 
   const handleCategory = (cat: string) => {
-    setSelectedCategory(cat); // Update selectedCategory when category is clicked
-    setKeyword(cat);
+    setSelectedCategory(cat); // 선택된 카테고리 업데이트
     setFilteredPlaces(dummyPlaces.filter((place) => place.category === cat));
   };
 
@@ -712,7 +711,7 @@ const MainPage: React.FC = () => {
               <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>제휴 업체</h2>
               <form onSubmit={handleSearch} style={{ marginBottom: '1rem' }}>
                 <input
-                  id="search-input"
+                  id="searchInput"
                   type="text"
                   placeholder="검색어를 입력하세요."
                   style={{
@@ -752,8 +751,8 @@ const MainPage: React.FC = () => {
                       padding: '0.5rem 1rem',
                       borderRadius: '20px',
                       border: '1px solid #007bff',
-                      backgroundColor: selectedCategory === cat ? '#007bff' : 'white', // Update color based on selectedCategory
-                      color: selectedCategory === cat ? 'white' : '#007bff', // Update text color based on selectedCategory
+                      backgroundColor: selectedCategory === cat ? '#007bff' : 'white', // 선택된 카테고리 색상 변경
+                      color: selectedCategory === cat ? 'white' : '#007bff',
                       cursor: 'pointer',
                       fontWeight: 'bold',
                     }}
