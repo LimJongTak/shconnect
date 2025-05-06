@@ -712,12 +712,12 @@ const MainPage: React.FC = () => {
               <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>제휴 업체</h2>
               <form onSubmit={handleSearch} style={{ marginBottom: '1rem' }}>
                 <input
-                  id="searchInput"
+                  id="search-input"
                   type="text"
-                  placeholder="검색어 입력"
+                  placeholder="검색어를 입력하세요."
                   style={{
                     padding: '0.6rem 1rem',
-                    width: '250px',
+                    width: '200px',
                     borderRadius: '20px',
                     border: '1px solid #ccc',
                     outline: 'none',

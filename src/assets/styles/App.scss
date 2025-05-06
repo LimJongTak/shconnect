@@ -63,6 +63,7 @@ header {
     justify-content: center;
     gap: 1rem;
     margin-top: 2rem;
+    flex-wrap: wrap; /* Allow wrapping on small screens */
   }
 
   .search-input {
@@ -175,18 +176,21 @@ footer {
     flex-direction: column;
     gap: 1rem;
     width: 100%; /* Ensure search container takes full width */
+    flex-wrap: nowrap; /* Ensure elements do not wrap */
   }
 
   .search-input {
     font-size: 0.75rem; /* Smaller font size for input */
-    width: 90%; /* Ensure it fits well in smaller screens */
+    width: 100%; /* Ensure input fits within screen width */
     padding: 0.5rem; /* Adjust padding */
+    box-sizing: border-box; /* Ensure padding does not overflow the container */
+    flex-basis: auto; /* Allow input to grow based on available space */
   }
 
   .search-button {
     font-size: 0.75rem; /* Smaller font size for button */
     padding: 0.5rem; /* Adjust padding */
-    width: 90%; /* Button takes full width in smaller screens */
+    width: 100%; /* Make button full width in smaller screens */
   }
 }
 
