@@ -268,14 +268,14 @@ imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf
 link: 'https://map.naver.com/p/search/%EC%B6%94%EC%B9%B4%EC%B6%94%EC%B9%B4/place/17030156?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
 },
 {
-name: '무궁화주택',
+name: '무궁화주택 순천대점',
 category: '주점',
 address: '전남 순천시 장명로 45',
 imageUrl: 'https://play-lh.googleusercontent.com/4ba13O4KLwYABQ2KvFaDpKsc_GuyxwItIRBH4L9sg4jciAnFD4KOr2eU1_tZxoz5pg',
 link: 'https://map.naver.com/p/search/%EB%AC%B4%EA%B6%81%ED%99%94%EC%A3%BC%ED%83%9D%20%EC%88%9C%EC%B2%9C/place/1614596220?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-name: '투다리 순천',
+name: '투다리 순대점',
 category: '주점',
 address: '전남 순천시 중앙로 132',
 imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fcafefiles.naver.net%2F20130802_82%2Fcafe20day_13753776727984ad8C_JPEG%2F%25C5%25F5%25B4%25D9%25B8%25AE_%25B7%25CE%25B0%25ED_Converted.jpg&type=sc960_832',
@@ -373,7 +373,7 @@ link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.0
   link: 'https://map.naver.com/p/search/%EC%8B%A0%EB%8B%B9%EB%8F%99%EC%B0%8C%EA%B0%9C%20%EC%88%9C%EC%B2%9C/place/1554563971?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-  name: '총각쉐프의 꿉닭먹짱',
+  name: '총각쉐프의 꿉닭먹짱 순천대점',
   category: '음식점',
   address: '전남 순천시 순천대2길 10',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_189%2F1585117903121DETOc_JPEG%2FQfUUbutz3aASDRLf90J82diJ.jpg',
@@ -478,7 +478,7 @@ link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.0
   link: 'https://map.naver.com/p/search/%EC%B6%98%EC%B2%9C%EB%A7%88%EC%AA%BC%EC%9D%80%EB%8B%AD%EA%B0%88%EB%B9%84/place/17030592?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-  name: '사이카레',
+  name: '사이',
   category: '음식점',
   address: '전남 순천시 순천대1길 36-20 1층 사이카레',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20150831_235%2F1441003510721skLrf_JPEG%2FSUBMIT_1415256407794_35476367.jpg',
@@ -637,7 +637,33 @@ link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.0
   address: '전남 순천시 석현동 86-5',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200120_298%2F1579504110347tJgty_JPEG%2FC_lo6OmP2LbyOHVZh-W2FOtu.jpg',
   link: 'https://map.naver.com/p/search/%EC%B2%98%EA%B0%93%EC%A7%91%20%EC%96%91%EB%85%90%EC%B9%98%ED%82%A8%20%EC%88%9C%EC%B2%9C%EB%8C%80%ED%95%99%EC%A0%90/place/11825601?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+},
+{
+  name: '다다하다 순천대점',
+  category: '주점',
+  address: '전남 순천시 순천대2길 2 1층',
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240904_277%2F172542901693926yn4_PNG%2F%25BC%25F8%25C3%25B502.png',
+  link: 'https://map.naver.com/p/entry/place/1584721975?c=15.00,0,0,0,dh'
+},{
+  name: '역전할머니맥주 순천대점',
+  category: '주점',
+  address: '전남 순천시 중앙로 276',
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTEyMjdfMTQz%2FMDAxNjQwNTgyMjAwMDI1.f9321e5b2-VLrWTq15yhUMPTxtXdFl9nmEdNHSi8uHgg.ZaXWYgZlHfAvH4s2VHz_I0y-wRatmiT_9jsciXMVb-Eg.PNG.duddjq4xla%2F20211227_141612.png&type=sc960_832',
+  link: 'https://map.naver.com/p/entry/place/1379049258?c=15.00,0,0,0,dh'
+},{
+  name: '딱 여기네',
+  category: '주점',
+  address: '전남 순천시 순천대1길 24',
+  imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200328_110%2F1585359369404bOgwJ_JPEG%2FEZcEzCnJjJEHs2azhdHr-5nN.jpg',
+  link: 'https://map.naver.com/p/entry/place/1453839849?c=15.00,0,0,0,dh'
+},{
+  name: '아는이모',
+  category: '주점',
+  address: '전남 순천시 순천대1길 30 1층 아는이모',
+  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MDdfOTgg%2FMDAxNjg2MTQwMTMxMjYx.WgJh5fwgEhwFu-3LedLCE2ooC2oq_QskfSKsPsXWpM0g._vOGw1ca9YUwlvfRB0EMIv7ptaNqwcg-y5M6eLTtJrgg.JPEG.anas9953%2FKakaoTalk_20230517_200026606_01.jpg',
+  link: 'https://map.naver.com/p/entry/place/1578616582?c=15.00,0,0,0,dh'
 }
+
 
 ];
 
