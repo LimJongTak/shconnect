@@ -102,7 +102,7 @@ const dummyPlaces: Place[] = [
     category: '카페',
     address: '전남 순천시 순천대1길 36-12',
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240922_217%2F1727012128632L5Q5b_PNG%2F%25BA%25A5%25BE%25D8%25C1%25A6%25B8%25AE%25BD%25BA_%25BF%25CD%25BA%25ED%25B7%25AF.png&type=sc960_832',
-    link: 'https://map.kakao.com/?map_type=TYPE_MAP&target=car&rt=%2C%2C537811%2C927642&rt1=&rt2=%EB%8B%A8%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90&rtIds=%2C&rtTypes=%2C'
+    link: 'https://place.map.kakao.com/799828651'
   },
   {
     name: '코드0.1',
@@ -170,14 +170,14 @@ const dummyPlaces: Place[] = [
   link: 'https://map.naver.com/p/search/%EC%BD%94%EC%BD%94%EC%B9%B4%EC%9D%B4/place/1453274593'
 },
 {
-  name: '코어 분식',
+  name: '코어 분식&포차',
   category: '주점',
   address: '전남 순천시 중앙로 232 1층 코어 분식&포차',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250102_41%2F1735802553071KQ1oR_JPEG%2F1000014001.jpg',
   link: 'https://map.naver.com/p/search/%EC%BD%94%EC%96%B4%20%EB%B6%84%EC%8B%9D/place/1583759276'
 },
 {
-  name: '칵테일 스토리',
+  name: '칵테일스토리',
   category: '주점',
   address: '전남 순천시 중앙로 268 1층',
   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MTNfMTQz%2FMDAxNzQ0NTMwMTMwNjk3.tNJJY8WU5wplq3v_OwtPrzHvI2xJ7H6szgbU_M-KNwEg.8r6XiN2RXYXUHZL0F3h8LxcREswFsuB4f_TBAuOk2h4g.JPEG%2FIMG_7800.jpg',
@@ -191,21 +191,21 @@ const dummyPlaces: Place[] = [
   link: 'https://map.naver.com/p/search/%EC%97%90%EB%8D%B8%EB%B0%94%EC%9D%B4%EC%8A%A4/place/1552722763'
 },
 {
-  name: '델라',
+  name: '델라 1호점',
   category: '주점',
   address: '전남 순천시 순천대2길 16',
   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMjNfMjU5%2FMDAxNjY2NDk3NDUxNTcy.7AB7y2nXRfgH_EHwzs4MMrO_Vn6IxL3Y6BCnHR0rr-og.5RFKH4wwBp1OmqIHl9IU7WjXlViv9yuOS67GSTyK6i0g.JPEG.mj9898z%2FIMG_2295.JPG',
   link: 'https://map.naver.com/p/search/%EB%8D%B8%EB%9D%BC/place/1183491815'
 },
 {
-  name: '다이닝타몽',
+  name: '다이닝타몽 순천대점',
   category: '주점',
   address: '전남 순천시 순천대2길 10-5 1층',
   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA1MDRfMjg4%2FMDAxNzQ2MzM5MjcxNjU0.o_cL-eG8K3Oh5saMo--VwmJkjper1zebq8VndtFOKmgg.HG-0dMIYEUQm4eyEc7mDwSFsXX-EzLWYmafa921cEwIg.JPEG%2FIMG_7907.jpg',
   link: 'https://map.naver.com/p/search/%EB%8B%A4%EC%9D%B4%EB%8B%9D%ED%83%80%EB%AA%BD/place/2028206743'
 },
 {
-name: '1도씨 맥주',
+name: '1도씨 맥주 순천대점',
 category: '주점',
 address: '전남 순천시 역전길 17-1',
 imageUrl: 'https://ldb-phinf.pstatic.net/20220924_61/1664026293398cel4F_JPEG/image.jpg',
@@ -240,7 +240,7 @@ imageUrl: 'https://ldb-phinf.pstatic.net/20250228_9/1740671923546BEMne_JPEG/IMG_
 link: 'https://map.naver.com/p/search/%EB%B9%B5%EA%BC%B4/place/1224334125?c=15.00,0,0,0,dh&isCorrectAnswer=true'
 },
 {
-name: '더박스 순천',
+name: '더박스',
 category: '주점',
 address: '전남 순천시 역전길 24-1',
 imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231114_14%2F1699959892852aQDcK_JPEG%2Fscaled_1698000819373.jpg',
