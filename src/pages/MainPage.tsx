@@ -645,20 +645,22 @@ const MainPage: React.FC = () => {
   const [keyword, setKeyword] = useState('');
   const [filteredPlaces, setFilteredPlaces] = useState<Place[]>([]);
   const [selectedTab, setSelectedTab] = useState<'search' | 'intro'>('search');
+  const [selectedCategory, setSelectedCategory] = useState<string>(''); // Add selectedCategory state
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     const input = document.getElementById('searchInput') as HTMLInputElement;
     const query = input.value;
     setKeyword(query);
-    setFilteredPlaces(dummyPlaces.filter(place => place.name.includes(query)));
+    setFilteredPlaces(dummyPlaces.filter((place) => place.name.includes(query)));
   };
 
   const handleCategory = (cat: string) => {
+    setSelectedCategory(cat); // Update selectedCategory when category is clicked
     setKeyword(cat);
-    setFilteredPlaces(dummyPlaces.filter(place => place.category === cat));
+    setFilteredPlaces(dummyPlaces.filter((place) => place.category === cat));
   };
-  
+
   return (
     <>
       <Header />
@@ -675,7 +677,7 @@ const MainPage: React.FC = () => {
               backgroundColor: selectedTab === 'search' ? '#007bff' : 'white',
               color: selectedTab === 'search' ? 'white' : '#007bff',
               fontWeight: 'bold',
-              cursor: 'pointer'
+              cursor: 'pointer',
             }}
           >
             제휴 업체 찾기
@@ -690,7 +692,7 @@ const MainPage: React.FC = () => {
               backgroundColor: selectedTab === 'intro' ? '#007bff' : 'white',
               color: selectedTab === 'intro' ? 'white' : '#007bff',
               fontWeight: 'bold',
-              cursor: 'pointer'
+              cursor: 'pointer',
             }}
           >
             프로그램 소개
@@ -699,140 +701,140 @@ const MainPage: React.FC = () => {
 
         {/* 🔥 애니메이션 처리 */}
         <AnimatePresence mode="wait">
-  {selectedTab === 'search' && (
-    <motion.div
-      key="search"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.3, ease: 'easeInOut' }}
-    >
-      <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>제휴 업체</h2>
-      <form onSubmit={handleSearch} style={{ marginBottom: '1rem' }}>
-        <input
-          id="searchInput"
-          type="text"
-          placeholder="검색어 입력"
-          style={{
-            padding: '0.6rem 1rem',
-            width: '250px',
-            borderRadius: '20px',
-            border: '1px solid #ccc',
-            outline: 'none',
-            fontSize: '1rem'
-          }}
-        />
-        <button
-          id="search-button"
-          type="submit"
-          style={{
-            marginLeft: '0.5rem',
-            padding: '0.6rem 1.2rem',
-            borderRadius: '20px',
-            border: 'none',
-            backgroundColor: '#007bff',
-            color: 'white',
-            cursor: 'pointer',
-            fontWeight: 'bold'
-          }}
-        >
-          검색
-        </button>
-      </form>
-
-      <div style={{ marginBottom: '2rem' }}>
-        {['음식점', '카페', '주점'].map((cat) => (
-          <button
-            key={cat}
-            onClick={() => handleCategory(cat)}
-            style={{
-              margin: '0 0.5rem',
-              padding: '0.5rem 1rem',
-              borderRadius: '20px',
-              border: '1px solid #007bff',
-              backgroundColor: 'white',
-              color: '#007bff',
-              cursor: 'pointer',
-              fontWeight: 'bold'
-            }}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
-
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '1.5rem'
-        }}
-      >
-        {filteredPlaces.map((place, index) => (
-          <motion.a
-            key={index}
-            href={place.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              textDecoration: 'none',
-              color: 'inherit',
-              width: '100%',
-              maxWidth: '500px'
-            }}
-            whileHover={{ scale: 1.03 }}
-          >
-            <div
-              style={{
-                padding: '1rem',
-                border: '1px solid #ddd',
-                borderRadius: '12px',
-                backgroundColor: '#fff',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                boxShadow: '0 4px 10px rgba(0,0,0,0.05)'
-              }}
+          {selectedTab === 'search' && (
+            <motion.div
+              key="search"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
             >
-              <img
-                src={place.imageUrl}
-                alt={place.name}
-                style={{
-                  width: '120px',
-                  height: '120px',
-                  objectFit: 'cover',
-                  borderRadius: '8px'
-                }}
-              />
-              <div style={{ textAlign: 'left' }}>
-                <h3 style={{ margin: '0 0 0.5rem 0' }}>{place.name}</h3>
-                <p style={{ margin: '0.2rem 0' }}>📌 분류: {place.category}</p>
-                <p style={{ margin: '0.2rem 0' }}>📍 주소: {place.address}</p>
-              </div>
-            </div>
-          </motion.a>
-        ))}
-      </div>
-    </motion.div>
-  )}
+              <h2 style={{ fontSize: '2rem', marginBottom: '1rem' }}>제휴 업체</h2>
+              <form onSubmit={handleSearch} style={{ marginBottom: '1rem' }}>
+                <input
+                  id="searchInput"
+                  type="text"
+                  placeholder="검색어 입력"
+                  style={{
+                    padding: '0.6rem 1rem',
+                    width: '250px',
+                    borderRadius: '20px',
+                    border: '1px solid #ccc',
+                    outline: 'none',
+                    fontSize: '1rem',
+                  }}
+                />
+                <button
+                  id="search-button"
+                  type="submit"
+                  style={{
+                    marginLeft: '0.5rem',
+                    padding: '0.6rem 1.2rem',
+                    borderRadius: '20px',
+                    border: 'none',
+                    backgroundColor: '#007bff',
+                    color: 'white',
+                    cursor: 'pointer',
+                    fontWeight: 'bold',
+                  }}
+                >
+                  검색
+                </button>
+              </form>
 
-  {selectedTab === 'intro' && (
-    <motion.div
-      key="intro"
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, y: -20 }}
-      transition={{ duration: 0.3, ease: 'easeInOut' }}
-    >
-      <h2>프로그램 소개</h2>
-      <p>📌 목적: 순천 구도심 및 대학가 상권 활성화</p>
-      <p>📌 필요성: 침체되어가는 구도심 및 대학가 상권을 대학생들의 소비 촉진을 통해 활성화</p>
-      <p>📌 내용: 제휴 업체 검색, 할인 혜택, 문화 교류</p>
-      <p>📌 주최: 국립순천대학교 제41대 서화총학생회</p>
-    </motion.div>
-  )}
-</AnimatePresence>
+              <div style={{ marginBottom: '2rem' }}>
+                {['음식점', '카페', '주점'].map((cat) => (
+                  <button
+                    key={cat}
+                    onClick={() => handleCategory(cat)}
+                    style={{
+                      margin: '0 0.5rem',
+                      padding: '0.5rem 1rem',
+                      borderRadius: '20px',
+                      border: '1px solid #007bff',
+                      backgroundColor: selectedCategory === cat ? '#007bff' : 'white', // Update color based on selectedCategory
+                      color: selectedCategory === cat ? 'white' : '#007bff', // Update text color based on selectedCategory
+                      cursor: 'pointer',
+                      fontWeight: 'bold',
+                    }}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+
+              <div
+                style={{
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: '1.5rem',
+                }}
+              >
+                {filteredPlaces.map((place, index) => (
+                  <motion.a
+                    key={index}
+                    href={place.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: 'none',
+                      color: 'inherit',
+                      width: '100%',
+                      maxWidth: '500px',
+                    }}
+                    whileHover={{ scale: 1.03 }}
+                  >
+                    <div
+                      style={{
+                        padding: '1rem',
+                        border: '1px solid #ddd',
+                        borderRadius: '12px',
+                        backgroundColor: '#fff',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '1rem',
+                        boxShadow: '0 4px 10px rgba(0,0,0,0.05)',
+                      }}
+                    >
+                      <img
+                        src={place.imageUrl}
+                        alt={place.name}
+                        style={{
+                          width: '120px',
+                          height: '120px',
+                          objectFit: 'cover',
+                          borderRadius: '8px',
+                        }}
+                      />
+                      <div style={{ textAlign: 'left' }}>
+                        <h3 style={{ margin: '0 0 0.5rem 0' }}>{place.name}</h3>
+                        <p style={{ margin: '0.2rem 0' }}>📌 분류: {place.category}</p>
+                        <p style={{ margin: '0.2rem 0' }}>📍 주소: {place.address}</p>
+                      </div>
+                    </div>
+                  </motion.a>
+                ))}
+              </div>
+            </motion.div>
+          )}
+
+          {selectedTab === 'intro' && (
+            <motion.div
+              key="intro"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+              transition={{ duration: 0.3, ease: 'easeInOut' }}
+            >
+              <h2>프로그램 소개</h2>
+              <p>📌 목적: 순천 구도심 및 대학가 상권 활성화</p>
+              <p>📌 필요성: 침체되어가는 구도심 및 대학가 상권을 대학생들의 소비 촉진을 통해 활성화</p>
+              <p>📌 내용: 제휴 업체 검색, 할인 혜택, 문화 교류</p>
+              <p>📌 주최: 국립순천대학교 제41대 서화총학생회</p>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
 
       <Footer />
