@@ -27,13 +27,6 @@ const dummyPlaces: Place[] = [
     link: 'https://map.naver.com/p/search/%ED%94%8C%EB%9D%BC%EC%9B%8C%EC%B9%B4%ED%8E%98/place/1192266345?c=13.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
-    name: '데일리커피',
-    category: '카페',
-    address: '전남 순천시 삼산로 21 1층',
-    imageUrl: '/assets/styles/daily.png',
-    link: 'https://place.map.kakao.com/1860894765'
-  },
-  {
     name: '카페시애틀',
     category: '카페',
     address: '전남 순천시 삼산로 20',

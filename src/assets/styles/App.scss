@@ -54,10 +54,10 @@ footer {
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
-  flex: 0 0 auto;
-  position: relative;
-  bottom: 0;
   width: 100%;
+  /* Ensures footer will be at the bottom of the page when content is less */
+  position: relative;
+  margin-top: auto; /* Ensures footer is pushed to the bottom */
 }
 
 .fade-container {
