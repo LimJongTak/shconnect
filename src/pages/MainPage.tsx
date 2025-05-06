@@ -11,6 +11,7 @@ interface Place {
   link: string;
 }
 
+
 const dummyPlaces: Place[] = [
   {
     name: '메가MGC커피 순천대점',
@@ -657,7 +658,7 @@ const MainPage: React.FC = () => {
     setKeyword(cat);
     setFilteredPlaces(dummyPlaces.filter(place => place.category === cat));
   };
-
+  
   return (
     <>
       <Header />
@@ -722,6 +723,7 @@ const MainPage: React.FC = () => {
           }}
         />
         <button
+          id="search-button"
           type="submit"
           style={{
             marginLeft: '0.5rem',
@@ -824,8 +826,8 @@ const MainPage: React.FC = () => {
       transition={{ duration: 0.3, ease: 'easeInOut' }}
     >
       <h2>프로그램 소개</h2>
-      <p>서화총학생회 X 이음 프로젝트는 학생들과 지역 사회를 연결하기 위한 플랫폼입니다.</p>
-      <p>📌 목적: 지역 상권과의 상생</p>
+      <p>📌 목적: 순천 구도심 및 대학가 상권 활성화</p>
+      <p>📌 필요성: 침체되어가는 구도심 및 대학가 상권을 대학생들의 소비 촉진을 통해 활성화</p>
       <p>📌 내용: 제휴 업체 검색, 할인 혜택, 문화 교류</p>
       <p>📌 주최: 국립순천대학교 제41대 서화총학생회</p>
     </motion.div>
