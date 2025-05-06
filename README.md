@@ -1,1 +1,1 @@
-![logo](public/assets/logo.png)
+![logo](public/assets/logo2.png)
