@@ -46,7 +46,7 @@ const MainPage: React.FC = () => {
       ),
     },
     {
-      title: '📝 주요 내용',
+      title: '📝 참여 방법',
       content: (
         <>
           <p>1. 재학생은 교내에서 응모권을 먼저 수령</p>
