@@ -656,6 +656,12 @@ export const dummyPlaces: Place[] = [
     address: '전남 순천시 순천대1길 30 1층 아는이모',
     imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA2MDdfOTgg%2FMDAxNjg2MTQwMTMxMjYx.WgJh5fwgEhwFu-3LedLCE2ooC2oq_QskfSKsPsXWpM0g._vOGw1ca9YUwlvfRB0EMIv7ptaNqwcg-y5M6eLTtJrgg.JPEG.anas9953%2FKakaoTalk_20230517_200026606_01.jpg',
     link: 'https://map.naver.com/p/entry/place/1578616582?c=15.00,0,0,0,dh'
+  },{
+    name: '옹기곱창막창구이',
+    category: '음식점',
+    address: '전남 순천시 삼산3길 31 1층',
+    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MThfMTU2%2FMDAxNjk1MDI5NTIwMTA3.TLisEcQkA5lZuSC1cniP-0KVyMrfhtV4kTQ7fzC4HQMg.tgsPzAzBFmn67R0GA_LSA6cPMT14TQ8M2ZKbeaGGwgQg.JPEG.haree12%2FKakaoTalk_20230918_164636313_05.jpg',
+    link: 'https://map.naver.com/p/entry/place/1923195601?c=15.00,0,0,0,dh'
   }
   
   
