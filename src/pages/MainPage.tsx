@@ -12,6 +12,11 @@ const MainPage: React.FC = () => {
   const [selectedTab, setSelectedTab] = useState<'search' | 'intro'>('search');
   const [selectedCategory, setSelectedCategory] = useState<string>('');
 
+  // 카테고리별 개수 계산 함수
+  const getCategoryCount = (category: string) => {
+    return dummyPlaces.filter((place) => place.category === category).length;
+  };
+
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     const input = document.getElementById('searchInput') as HTMLInputElement;
@@ -111,13 +116,18 @@ const MainPage: React.FC = () => {
               </form>
 
               <div style={{ marginBottom: '2rem' }}>
+                <p>검색된 업체 수</p>
+                <div className="result-card">
+                  <span>{filteredPlaces.length}</span>
+                </div>
+
                 {['음식점', '카페', '주점'].map((cat) => (
                   <button
                     key={cat}
                     onClick={() => handleCategory(cat)}
                     className={`category-button ${selectedCategory === cat ? 'active' : ''}`}
                   >
-                    {cat}
+                    {cat} ({getCategoryCount(cat)})
                   </button>
                 ))}
               </div>

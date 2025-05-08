@@ -152,6 +152,38 @@ footer {
   margin-top: auto;
 }
 
+.result-card {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 10px;
+  max-width: 10px;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  border: 1px solid #007bff;
+  transition: all 0.3s ease;
+  margin-bottom: 20px;  /* 아래에 20px 여백 추가 */
+
+  span {
+    font-size: 2rem;
+    color: #007bff;
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: white;
+    border-color: #0056b3;
+  }
+  
+}
+
+
 /* 📱 태블릿 이상 (768px 이상) */
 @media (min-width: 768px) {
   header nav ul {
