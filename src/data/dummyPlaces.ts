@@ -143,6 +143,13 @@ export const dummyPlaces: Place[] = [
     }
   ,
   {
+  name: '만카이',
+  category: '주점',
+  address: '전남 순천시 중앙로 139 1층',
+  imageUrl: 'https://ldb-phinf.pstatic.net/20230826_5/1693011839748QkqEI_JPEG/1000001556.jpg',
+  link: 'https://map.naver.com/p/search/%EB%A7%8C%EC%B9%B4%EC%9D%B4/place/1924929065?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  },
+  {
     name: '기우',
     category: '주점',
     address: '전남 순천시 순천대1길 28 기우',
@@ -239,13 +246,6 @@ export const dummyPlaces: Place[] = [
   address: '전남 순천시 역전길 24-1',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231114_14%2F1699959892852aQDcK_JPEG%2Fscaled_1698000819373.jpg',
   link: 'https://map.naver.com/p/search/%EB%8D%94%EB%B0%95%EC%8A%A4%20%EC%88%9C%EC%B2%9C/place/1934647697?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-  name: '만카이',
-  category: '주점',
-  address: '전남 순천시 중앙로 139 1층',
-  imageUrl: 'https://ldb-phinf.pstatic.net/20230826_5/1693011839748QkqEI_JPEG/1000001556.jpg',
-  link: 'https://map.naver.com/p/search/%EB%A7%8C%EC%B9%B4%EC%9D%B4/place/1924929065?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
   name: '뚱땡이포차',
