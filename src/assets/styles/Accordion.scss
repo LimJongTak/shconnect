@@ -1,88 +1,86 @@
-// src/assets/styles/Accordion.scss
 .qna-title {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    color: #333;
-  }
-  
-  /* 질문 항목 스타일 */
-  .qna-item {
-    background: rgba(0, 123, 255, 0.1);
-    color: #333;
-    font-size: 18px;
-    font-weight: 700;
-    margin: 15px 0;
-    padding: 16px 28px;
-    border-radius: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.05);
-    transition: transform 0.2s ease;
-    cursor: pointer;
-    animation: slideUpFadeIn 0.8s ease-out forwards;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #333;
+}
+
+/* 질문 항목 스타일 */
+.qna-item {
+  background: rgba(0, 123, 255, 0.1);
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0;
+  padding: 16px 28px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  animation: slideUpFadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.qna-item:hover {
+  transform: scale(1.02);
+  background: rgba(0, 123, 255, 0.15);
+}
+
+.dropdown-icon {
+  font-size: 18px;               // 아이콘 크기 조정
+  font-weight: 600;               // 글씨 두께 조정
+  color: #007bff;                 // 메인 블루 색상
+  background-color: white;        // 배경색 흰색
+  border: 1px solid #007bff;      // 외곽선 추가
+  border-radius: 50%;             // 원형
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* 펼쳐졌을 때 아이콘 색상과 상태 */
+.qna-item.active .dropdown-icon {
+  color: #007bff;   // 활성화된 아이콘의 색상
+}
+
+.qna-content {
+  display: block;
+  background-color: rgba(0, 123, 255, 0.05);
+  padding: 20px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-size: 16px;
+  text-align: left;
+  color: #333;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* 애니메이션 */
+@keyframes slideUpFadeIn {
+  from {
     opacity: 0;
+    transform: translateY(30px);
   }
-  
-  .qna-item:hover {
-    transform: scale(1.02);
-    background: rgba(0, 123, 255, 0.15);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .dropdown-icon {
-    font-size: 13px;                // 크기 줄임
-    font-weight: 600;               // 약간 얇게
-    color: #007bff;                 // 메인 블루 컬러 적용
-    background-color: white;        // 흰 배경
-    border: 1px solid #007bff;      // 외곽선 추가
-    border-radius: 50%;             // 원형
-    width: 24px;
-    height: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: transform 0.3s ease, background-color 0.3s ease;
-  
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
   }
-  
-  .qna-item.active .dropdown-icon {
-    transform: rotate(180deg);
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  .qna-content {
-    display: block;
-    background-color: rgba(0, 123, 255, 0.05);
-    padding: 20px;
-    margin-top: -10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    font-size: 16px;
-    text-align: left;
-    color: #333;
-    animation: fadeIn 0.3s ease-in-out;
-  }
-  
-  /* 애니메이션 */
-  @keyframes slideUpFadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(30px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(-5px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
+}

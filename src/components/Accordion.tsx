@@ -26,6 +26,7 @@ const Accordion: React.FC<AccordionProps> = ({ items }) => {
             onClick={() => toggle(idx)}
           >
             <span>{item.title}</span>
+            {/* 아이콘을 ▲ 또는 ▼로 직접 변경 */}
             <span className="dropdown-icon">{activeIndex === idx ? '▲' : '▼'}</span>
           </div>
           {activeIndex === idx && (
