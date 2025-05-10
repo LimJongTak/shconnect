@@ -7,13 +7,13 @@ export interface Place {
 }
   
 export const dummyPlaces: Place[] = [
-    {
-      name: '메가MGC커피 순천대점',
-      category: '카페',
-      address: '전남 순천시 순천대2길 2 1층',
-      imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMjJfMjEz%2FMDAxNzExMDk0NDIzNzcx.MZpKNDow3sszo7CZZpO7ivtkM7KW67x1Q23lig3WQPQg.fbKRpjOgYBPOfYFOUsUah35GkG_UNaMSo0q1xbxk02Yg.JPEG%2F%25B8%25DE%25B0%25A1%25C4%25BF%25C7%25C7_%25C5%25B8%25C0%25CC%25C6%25B2.jpg&type=sc960_832',
-      link: 'https://map.naver.com/p/entry/place/1092023526?lng=127.4843679&lat=34.9687906&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
-    },
+    // {
+    //   name: '메가MGC커피 순천대점',
+    //   category: '카페',
+    //   address: '전남 순천시 순천대2길 2 1층',
+    //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAzMjJfMjEz%2FMDAxNzExMDk0NDIzNzcx.MZpKNDow3sszo7CZZpO7ivtkM7KW67x1Q23lig3WQPQg.fbKRpjOgYBPOfYFOUsUah35GkG_UNaMSo0q1xbxk02Yg.JPEG%2F%25B8%25DE%25B0%25A1%25C4%25BF%25C7%25C7_%25C5%25B8%25C0%25CC%25C6%25B2.jpg&type=sc960_832',
+    //   link: 'https://map.naver.com/p/entry/place/1092023526?lng=127.4843679&lat=34.9687906&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
+    // },
     {
       name: '플라워카페1002',
       category: '카페',
@@ -126,14 +126,13 @@ export const dummyPlaces: Place[] = [
       imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220901_22%2F1662022458831xJc9i_JPEG%2FF6AB41E3-80D3-46ED-A931-558E1B68A760.jpeg',
       link: 'https://map.naver.com/p/entry/place/1219220571?c=15.00,0,0,0,dh'
     },
-    {
-      name: '크로커스',
-      category: '카페',
-      address: '전남 순천시 북문길 176',
-      imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMThfMjcg%2FMDAxNzAwMzEwMzczNjEz.BtRCRIJtgXRkkBN18VkFVjv-sdyRq76qMjdPWK5Q7O4g.ZQx9sSMHJCNLwfe45ol5n-bmX48QCIDIi7S-Y2eYYDgg.JPEG.yujin1948%2FKakaoTalk_20231118_212413128_01.jpg',
-      link: 'https://map.naver.com/p/search/%ED%81%AC%EB%A1%9C%EC%BB%A4%EC%8A%A4/place/1634139293?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-    }
-  ,
+    // {
+    //   name: '크로커스',
+    //   category: '카페',
+    //   address: '전남 순천시 북문길 176',
+    //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzExMThfMjcg%2FMDAxNzAwMzEwMzczNjEz.BtRCRIJtgXRkkBN18VkFVjv-sdyRq76qMjdPWK5Q7O4g.ZQx9sSMHJCNLwfe45ol5n-bmX48QCIDIi7S-Y2eYYDgg.JPEG.yujin1948%2FKakaoTalk_20231118_212413128_01.jpg',
+    //   link: 'https://map.naver.com/p/search/%ED%81%AC%EB%A1%9C%EC%BB%A4%EC%8A%A4/place/1634139293?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+    // },
     {
       name: '꾸꾸',
       category: '카페',
@@ -148,6 +147,13 @@ export const dummyPlaces: Place[] = [
   address: '전남 순천시 중앙로 139 1층',
   imageUrl: 'https://ldb-phinf.pstatic.net/20230826_5/1693011839748QkqEI_JPEG/1000001556.jpg',
   link: 'https://map.naver.com/p/search/%EB%A7%8C%EC%B9%B4%EC%9D%B4/place/1924929065?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  },
+  {
+  name: '뚱땡이포차',
+  category: '주점',
+  address: '전남 순천시 역전2길 22',
+  imageUrl: 'https://ldb-phinf.pstatic.net/20250210_121/17391311326190sezJ_JPEG/IMG_3384.jpeg',
+  link: 'https://map.naver.com/p/search/%EB%9A%B1%EB%95%A1%EC%9D%B4%ED%8F%AC%EC%B0%A8/place/1646755376?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
     name: '기우',
@@ -219,13 +225,13 @@ export const dummyPlaces: Place[] = [
   imageUrl: 'https://ldb-phinf.pstatic.net/20170929_167/1506658611619xNUY6_JPEG/CL7w1XVk2TfRE9_eIVH_JcxF.jpg',
   link: 'https://map.naver.com/p/search/%EC%88%A0%EC%B0%BD%EA%B3%A0/place/1074693374?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-  name: '미스터슈',
-  category: '주점',
-  address: '전남 순천시 중앙로 172 1층',
-  imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjVfMjcz%2FMDAxNzA2MTg4NTE2NzM2.bZXYVrqrVs_qnX62TQOwFLyi4kAY771OIm_l38qo_asg.qM1r1ZoYadMEy8wayD1aas6_BHGLI880-rynW96Wjugg.JPEG.alonepray%2F20240124%25A3%25DF190052.jpg',
-  link: 'https://map.naver.com/p/search/%EB%AF%B8%EC%8A%A4%ED%84%B0%EC%8A%88/place/32429522?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  // name: '미스터슈',
+  // category: '주점',
+  // address: '전남 순천시 중앙로 172 1층',
+  // imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAxMjVfMjcz%2FMDAxNzA2MTg4NTE2NzM2.bZXYVrqrVs_qnX62TQOwFLyi4kAY771OIm_l38qo_asg.qM1r1ZoYadMEy8wayD1aas6_BHGLI880-rynW96Wjugg.JPEG.alonepray%2F20240124%25A3%25DF190052.jpg',
+  // link: 'https://map.naver.com/p/search/%EB%AF%B8%EC%8A%A4%ED%84%B0%EC%8A%88/place/32429522?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
   name: '낙우송',
   category: '주점',
@@ -246,13 +252,6 @@ export const dummyPlaces: Place[] = [
   address: '전남 순천시 역전길 24-1',
   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20231114_14%2F1699959892852aQDcK_JPEG%2Fscaled_1698000819373.jpg',
   link: 'https://map.naver.com/p/search/%EB%8D%94%EB%B0%95%EC%8A%A4%20%EC%88%9C%EC%B2%9C/place/1934647697?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-  name: '뚱땡이포차',
-  category: '주점',
-  address: '전남 순천시 역전2길 22',
-  imageUrl: 'https://ldb-phinf.pstatic.net/20250210_121/17391311326190sezJ_JPEG/IMG_3384.jpeg',
-  link: 'https://map.naver.com/p/search/%EB%9A%B1%EB%95%A1%EC%9D%B4%ED%8F%AC%EC%B0%A8/place/1646755376?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
   {
   name: '추카추카',
@@ -282,13 +281,13 @@ export const dummyPlaces: Place[] = [
   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDAyMjZfNjEg%2FMDAxNzA4OTE4OTk4OTI3.d96enD5PlM6c1ouJRfKUgCFUgoeMWQFmtd-QA81n4GYg.ANvu1znNngTLKiZJR2TtEoHvbgTSlNUTq-thRpNVi84g.JPEG%2F20240214%25A3%25DF184631.jpg',
   link: 'https://map.naver.com/p/search/%EC%95%84%EB%A6%AC%EB%9E%91/place/19583383?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-  name: '술술',
-  category: '주점',
-  address: '전남 순천시 중앙로 225 2층',
-  imageUrl: 'https://ldb-phinf.pstatic.net/20230829_293/1693278333190U4gpB_JPEG/20230804_194511.jpg',
-  link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  // name: '술술',
+  // category: '주점',
+  // address: '전남 순천시 중앙로 225 2층',
+  // imageUrl: 'https://ldb-phinf.pstatic.net/20230829_293/1693278333190U4gpB_JPEG/20230804_194511.jpg',
+  // link: 'https://map.naver.com/p/search/%EC%88%A0%EC%88%A0/place/1126589805?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '이파리 순대점',
     category: '음식점',
@@ -296,13 +295,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA1MzBfMjc1%2FMDAxNzE3MDM0NTEzOTYy.--EOj0x4spgWHTfUzB60hXEm0bdbnRP8YGb1anzctj8g.br4DFqh127aha6pipTEgEILgghJ0yQdiXBEGsciXzqMg.JPEG%2FIMG_0904.jpg',
     link: 'https://map.naver.com/p/search/%EC%9D%B4%ED%8C%8C%EB%A6%AC%20%EC%88%9C%EC%B2%9C/place/17030653?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-    name: '태리로제떡볶이&닭강정 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대1길 16 상가 1층',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210610_228%2F1623304319184nv006_JPEG%2FoYIwLvm6LNQ9AVRfAAF6YmHE.jpeg.jpg',
-    link: 'https://map.naver.com/p/search/%ED%83%9C%EB%A6%AC%EB%A1%9C%EC%A0%9C%EB%96%A1%EB%B3%B6%EC%9D%B4%26%EB%8B%AD%EA%B0%95%EC%A0%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1113416057?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '태리로제떡볶이&닭강정 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대1길 16 상가 1층',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210610_228%2F1623304319184nv006_JPEG%2FoYIwLvm6LNQ9AVRfAAF6YmHE.jpeg.jpg',
+  //   link: 'https://map.naver.com/p/search/%ED%83%9C%EB%A6%AC%EB%A1%9C%EC%A0%9C%EB%96%A1%EB%B3%B6%EC%9D%B4%26%EB%8B%AD%EA%B0%95%EC%A0%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1113416057?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '홍이참숯구이',
     category: '음식점',
@@ -331,13 +330,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20191015_89%2F15711487380051wcpA_JPEG%2F0okiNYDhJ8oxp0Cpva9NNt6q.jpeg.jpg',
     link: 'https://map.naver.com/p/search/%EC%84%9D%ED%98%84%EC%A0%95%EC%9C%A1%EC%8B%9D%EB%8B%B9/place/487345145?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-    name: '봉구스밥버거 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대길 1길 24',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_20%2F15487805385295oiXF_JPEG%2FoqksYAUjxvpcamH35ks5-W1T.jpg',
-    link: 'https://map.naver.com/p/search/%EB%B4%89%EA%B5%AC%EC%8A%A4%EB%B0%A5%EB%B2%84%EA%B1%B0%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/32565731?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
+  // {
+  //   name: '봉구스밥버거 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대길 1길 24',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190130_20%2F15487805385295oiXF_JPEG%2FoqksYAUjxvpcamH35ks5-W1T.jpg',
+  //   link: 'https://map.naver.com/p/search/%EB%B4%89%EA%B5%AC%EC%8A%A4%EB%B0%A5%EB%B2%84%EA%B1%B0%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/32565731?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '육백리스넥반점',
     category: '음식점',
@@ -352,20 +351,20 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTAyMDRfMTM2%2FMDAxNzM4NjcyNDU2MjU0.om2Pj7GNkJFzoR35_mKILXAOKYzIZIpJFVMSol2Q474g.ehEEcu33I96x-SoGgl-NAkK5JWvb7KUWzh62VfUJDbwg.JPEG%2F1000077053.jpg.jpg%3Ftype%3Dw1500_60_sharpen',
     link: 'https://map.naver.com/p/search/%EB%8C%80%EB%B0%95%EB%A7%88%EB%9D%BC%ED%83%95%20%EC%88%9C%EC%B2%9C%EC%A0%90/place/1394232424?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '유부남 순천점',
-    category: '음식점',
-    address: '전남 순천시 순천대1길 36-20 1층 유부남',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200204_222%2F1580749382849VdI3j_JPEG%2FGzzX0GKCskBRw-_gAe6TpbRf.jpg',
-    link: 'https://map.naver.com/p/search/%EC%9C%A0%EB%B6%80%EB%82%A8%20%EC%88%9C%EC%B2%9C%EC%A0%90/place/1592867705?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '신당동찌개',
-    category: '음식점',
-    address: '전남 순천시 중앙로 248-1',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MzBfMzAw%2FMDAxNzQ1OTk3NTg5NDA2.lBTG0tCOdy5nEc9IAiPL0T-W7qN00LJMMtGRiwMCB80g.VHKROw8Ul4tyP5exfyIQTWPrjeVW6Ie9BQlFZOX5h4gg.JPEG%2F900%25A3%25DF20250401%25A3%25DF131140.jpg',
-    link: 'https://map.naver.com/p/search/%EC%8B%A0%EB%8B%B9%EB%8F%99%EC%B0%8C%EA%B0%9C%20%EC%88%9C%EC%B2%9C/place/1554563971?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
+  // {
+  //   name: '유부남 순천점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대1길 36-20 1층 유부남',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200204_222%2F1580749382849VdI3j_JPEG%2FGzzX0GKCskBRw-_gAe6TpbRf.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%9C%A0%EB%B6%80%EB%82%A8%20%EC%88%9C%EC%B2%9C%EC%A0%90/place/1592867705?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '신당동찌개',
+  //   category: '음식점',
+  //   address: '전남 순천시 중앙로 248-1',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTA0MzBfMzAw%2FMDAxNzQ1OTk3NTg5NDA2.lBTG0tCOdy5nEc9IAiPL0T-W7qN00LJMMtGRiwMCB80g.VHKROw8Ul4tyP5exfyIQTWPrjeVW6Ie9BQlFZOX5h4gg.JPEG%2F900%25A3%25DF20250401%25A3%25DF131140.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%8B%A0%EB%8B%B9%EB%8F%99%EC%B0%8C%EA%B0%9C%20%EC%88%9C%EC%B2%9C/place/1554563971?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '총각쉐프의 꿉닭먹짱 순천대점',
     category: '음식점',
@@ -387,20 +386,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220829_287%2F1661761552115415Qu_JPEG%2F20220829_170604.jpg',
     link: 'https://map.naver.com/p/search/%EC%A7%91%EB%B0%A5%ED%95%9C%EB%81%BC/place/1916048475?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-    name: '요하마라21순대점',
-    category: '음식점',
-    address: '전남 순천시 순천대1길 50 1층',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240927_203%2F1727407498177HjH72_JPEG%2F1727407484466.jpg&type=sc960_832',
-    link: 'https://map.naver.com/p/search/%EC%9A%94%ED%95%98%EB%A7%88%EB%9D%BC21%EC%88%9C%EB%8C%80%EC%A0%90/place/1635658597?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '멕시카나치킨 순천 석현점',
-    category: '음식점',
-    address: '전남 순천시 석현동 72-30',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA1MjZfNTMg%2FMDAxNjUzNTM5NDE0OTc1.Fov7occWPzjU9nx0vuf2mH-swZBAqUGO6_cI2tIynvAg.TZFlwSITXaClL0uWq5CsxdiKsXC7dQFKPN_qvIBzTFgg.JPEG.rosmary9011%2FKakaoTalk_20220526_131354724_05.jpg&type=sc960_832',
-    link: 'https://map.naver.com/p/search/%EB%A9%95%EC%8B%9C%EC%B9%B4%EB%82%98%EC%B9%98%ED%82%A8%20%EC%88%9C%EC%B2%9C%20%EC%84%9D%ED%98%84%EC%A0%90/place/11801505?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '요하마라21순대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대1길 50 1층',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240927_203%2F1727407498177HjH72_JPEG%2F1727407484466.jpg&type=sc960_832',
+  //   link: 'https://map.naver.com/p/search/%EC%9A%94%ED%95%98%EB%A7%88%EB%9D%BC21%EC%88%9C%EB%8C%80%EC%A0%90/place/1635658597?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '연이식당',
     category: '음식점',
@@ -436,27 +428,27 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190129_292%2F1548769170388cekNp_JPEG%2F12Ak3fwAeHsN09fAAsOOFXP9.jpeg.jpg',
     link: 'https://map.naver.com/p/search/%EC%98%9B%EB%82%A0%20%EA%BF%80%EA%80%80%EC%9D%B4%20%EC%88%AF%EB%B6%88%EC%B4%8C/place/1737061450?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '돼지마을',
-    category: '음식점',
-    address: '전남 순천시 삼산2길 36',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190930_3%2F15698446787477rT2E_JPEG%2FDLuRwYRTkfcHd4WH68s3gF8V.jpeg.jpg',
-    link: 'https://map.naver.com/p/search/%EB%8F%BC%EC%A7%80%EB%A7%88%EC%9D%84/place/17030364?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
-  {
-    name: '등뼈가 순천대학점',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 36',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180926_64%2F15379275040853Cj43_JPEG%2F_6KTxPK3ixZCjJpAe6jC9yhp.jpg',
-    link: 'https://map.naver.com/p/search/%EB%93%B1%EB%BC%88%EA%B0%80%20%EC%88%9C%EC%B2%9C%EB%8C%80%ED%95%99%EC%A0%90/place/17030839?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '창조식당',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 38 창조식당',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190207_165%2F1549521819531Fu0DD_JPEG%2FJ6Shi1_69XjxnTmpfnAAhIAr.jpg',
-    link: 'https://map.naver.com/p/search/%EC%B0%BD%EC%A1%B0%EC%8B%9D%EB%8B%B9/place/1104826709?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '돼지마을',
+  //   category: '음식점',
+  //   address: '전남 순천시 삼산2길 36',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190930_3%2F15698446787477rT2E_JPEG%2FDLuRwYRTkfcHd4WH68s3gF8V.jpeg.jpg',
+  //   link: 'https://map.naver.com/p/search/%EB%8F%BC%EC%A7%80%EB%A7%88%EC%9D%84/place/17030364?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
+  // {
+  //   name: '등뼈가 순천대학점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 36',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20180926_64%2F15379275040853Cj43_JPEG%2F_6KTxPK3ixZCjJpAe6jC9yhp.jpg',
+  //   link: 'https://map.naver.com/p/search/%EB%93%B1%EB%BC%88%EA%B0%80%20%EC%88%9C%EC%B2%9C%EB%8C%80%ED%95%99%EC%A0%90/place/17030839?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '창조식당',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 38 창조식당',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190207_165%2F1549521819531Fu0DD_JPEG%2FJ6Shi1_69XjxnTmpfnAAhIAr.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%B0%BD%EC%A1%B0%EC%8B%9D%EB%8B%B9/place/1104826709?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '춘천거시기닭갈비',
     category: '음식점',
@@ -492,13 +484,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250430_188%2F1745996348711AwNEN_JPEG%2F%25B7%25CE%25B0%25ED_1.jpg',
     link: 'https://map.naver.com/p/search/%ED%95%9C%EC%86%A5%EB%8F%84%EC%8B%9C%EB%9D%BD%20%EC%88%9C%EC%B2%9C%EB%8C%80%ED%95%99%EA%B5%90%EC%A0%90/place/21745041?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '에너지버거그릴',
-    category: '음식점',
-    address: '전남 순천시 순천대1길 6 2층 에너지버거그릴',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_78%2F1585118220023VG9hJ_JPEG%2FDRh9nmBidGKuUEBlDqXO_NLJ.jpg',
-    link: 'https://map.naver.com/p/search/%EC%97%90%EB%84%88%EC%A7%80%EB%B2%84%EA%B1%B0%EA%B7%B8%EB%A6%B4/place/1830064578?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
+  // {
+  //   name: '에너지버거그릴',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대1길 6 2층 에너지버거그릴',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_78%2F1585118220023VG9hJ_JPEG%2FDRh9nmBidGKuUEBlDqXO_NLJ.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%97%90%EB%84%88%EC%A7%80%EB%B2%84%EA%B1%B0%EA%B7%B8%EB%A6%B4/place/1830064578?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '기차마을',
     category: '음식점',
@@ -520,13 +512,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20250324_40%2F1742808826157CgThQ_JPEG%2Ftemp_picture.jpg',
     link: 'https://map.naver.com/p/search/%EB%82%A8%EA%B0%80%EB%84%A4%EC%84%A4%EC%95%85%EC%B6%94%EC%96%B4%ED%83%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1091768160?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   },
-  {
-    name: '우리집 오리 순대점',
-    category: '음식점',
-    address: '전남 순천시 환선로 156-1',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTAxMTVfMjY2%2FMDAxNzM2OTIyNTY1MzI5.U72_Unnw7snDEYQZiMC9ymEXQDVFZKOoCuWmHY-Un4Ig.8J98zFBXz_sM-2CdAQ85yGLELgAL_OcRXJ5TO3oVm3Qg.JPEG%2F1000058177.heic.jpg%3Ftype%3Dw1500_60_sharpen',
-    link: 'https://map.naver.com/p/search/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%98%A4%EB%A6%AC%20%EC%88%9C%EB%8C%80%EC%A0%90/place/1070326177?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
+  // {
+  //   name: '우리집 오리 순대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 환선로 156-1',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTAxMTVfMjY2%2FMDAxNzM2OTIyNTY1MzI5.U72_Unnw7snDEYQZiMC9ymEXQDVFZKOoCuWmHY-Un4Ig.8J98zFBXz_sM-2CdAQ85yGLELgAL_OcRXJ5TO3oVm3Qg.JPEG%2F1000058177.heic.jpg%3Ftype%3Dw1500_60_sharpen',
+  //   link: 'https://map.naver.com/p/search/%EC%9A%B0%EB%A6%AC%EC%A7%91%EC%98%A4%EB%A6%AC%20%EC%88%9C%EB%8C%80%EC%A0%90/place/1070326177?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '이삭토스트 순천대점',
     category: '음식점',
@@ -534,20 +526,20 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240429_10%2F1714362212485GnOUa_JPEG%2F1.jpg',
     link: 'https://map.naver.com/p/search/%EC%9D%B4%EC%82%AD%ED%86%A0%EC%8A%A4%ED%8A%B8%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/38227500?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '이백장돈가스 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 8 1층',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230309_262%2F1678348042687I6h3V_JPEG%2F01_%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA%25BF%25EB-%25B7%25CE%25B0%25ED%2528%25B4%25EB%25C7%25A5%25BB%25E7%25C1%25F8%2529.jpg',
-    link: 'https://map.naver.com/p/search/%EC%9D%B4%EB%B0%B1%EC%9E%A5%EB%8F%88%EA%B0%80%EC%8A%A4%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1556137388?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '신라장',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 8',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MDZfMjMg%2FMDAxNjgzMzM4NjI5NTcy.ulPEUjiuqZ6Gf4qnSEqDQRkjLe_JV9sBnmtN92QaFWcg.upUgjsVdxZF3rmTI20Xk1VwbFe1wnYW_BbpM0exMr7Ug.JPEG.skaksdml34%2F20230504%25A3%25DF171241.jpg',
-    link: 'https://map.naver.com/p/search/%EC%8B%A0%EB%9D%BC%EC%9E%A5/place/1648130705?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '이백장돈가스 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 8 1층',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20230309_262%2F1678348042687I6h3V_JPEG%2F01_%25BD%25BA%25B8%25B6%25C6%25AE%25C7%25C3%25B7%25B9%25C0%25CC%25BD%25BA%25BF%25EB-%25B7%25CE%25B0%25ED%2528%25B4%25EB%25C7%25A5%25BB%25E7%25C1%25F8%2529.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%9D%B4%EB%B0%B1%EC%9E%A5%EB%8F%88%EA%B0%80%EC%8A%A4%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1556137388?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '신라장',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 8',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MDZfMjMg%2FMDAxNjgzMzM4NjI5NTcy.ulPEUjiuqZ6Gf4qnSEqDQRkjLe_JV9sBnmtN92QaFWcg.upUgjsVdxZF3rmTI20Xk1VwbFe1wnYW_BbpM0exMr7Ug.JPEG.skaksdml34%2F20230504%25A3%25DF171241.jpg',
+  //   link: 'https://map.naver.com/p/search/%EC%8B%A0%EB%9D%BC%EC%9E%A5/place/1648130705?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '원조왕족발',
     category: '음식점',
@@ -562,13 +554,13 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDEwMDNfOTIg%2FMDAxNzI3OTUyMjk4MDMw.Hcc33hLbneCYatG74NE0k-23uw7X2yuqTWujTcubDzUg.xuNv-z-4La2sWFVKVBJVcO-v2zgzYhZ5mEEU2N8U1ekg.JPEG%2F%25BC%25F8%25C3%25B5_%25C5%25D7%25B8%25B6%25B6%25F3%25B8%25E9_%25BC%25F8%25C3%25B5%25B4%25EB%25C1%25A1_%25B8%25C0%25C1%25FD_%25BD%25C4%25B4%25E7_%252814%2529.jpg',
     link: 'https://map.naver.com/p/search/%ED%85%8C%EB%A7%88%EB%9D%BC%EB%A9%B4%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/34959546?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '퀸테이블',
-    category: '음식점',
-    address: '전남 순천시 순천대1길 36-55 1층 퀸테이블',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMjBfMTMg%2FMDAxNzQyNDc2NjU4MjMx.F2ymMnsdMnx64J8azKxcrEaTeYIsUZHL3ARlrY-BQdcg.5W-sz-qjg-xKwiA9nbUAzxp5r7b_m8d2_c-g37WFPeIg.JPEG%2FKakaoTalk_20250320_221521816.jpg',
-    link: 'https://map.naver.com/p/search/%ED%80%B8%ED%85%8C%EC%9D%B4%EB%B8%94/place/1518464570?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '퀸테이블',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대1길 36-55 1층 퀸테이블',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNTAzMjBfMTMg%2FMDAxNzQyNDc2NjU4MjMx.F2ymMnsdMnx64J8azKxcrEaTeYIsUZHL3ARlrY-BQdcg.5W-sz-qjg-xKwiA9nbUAzxp5r7b_m8d2_c-g37WFPeIg.JPEG%2FKakaoTalk_20250320_221521816.jpg',
+  //   link: 'https://map.naver.com/p/search/%ED%80%B8%ED%85%8C%EC%9D%B4%EB%B8%94/place/1518464570?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '굴천지.초계국수&황토수육국밥 석현점',
     category: '음식점',
@@ -590,34 +582,34 @@ export const dummyPlaces: Place[] = [
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190131_63%2F15489042856669KFoI_JPEG%2F-kcksx4MTNate9XIpAcEo2wh.jpg',
     link: 'https://map.naver.com/p/search/%EC%86%A1%EC%9B%90%EA%B3%B1%EC%B0%BD%EB%8B%AD%EA%B0%88%EB%B9%84/place/17029385?c=15.00,0,0,0,dh&isCorrectAnswer=true'
   },
-  {
-    name: '도야짬뽕 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 26',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMThfODUg%2FMDAxNjc0MDExMzY3MjI4.mT5mYARBXdPqTbSi7nXIngtXyCgmD3fxPNYOIDQBtxgg.7Jb8vH6SL9zpmyLHP4aSkp2rRYjiWGuE6ltdiqpJMAUg.JPEG.doyafood%2F%25B5%25B5%25BE%25DF%25C2%25AB%25BB%25CD%25B7%25CE%25B0%25ED.jpg&type=sc960_832',
-    link: 'https://map.naver.com/p/search/%EB%8F%84%EC%95%BC%EC%A7%AC%EB%BD%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1837174739?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '김밥천국 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 28',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_223%2F1585117306684bqjYg_JPEG%2FWC3AgeVEnNEXAsXgAkTKHrSe.jpg',
-    link: 'https://map.naver.com/p/search/%EA%B9%80%EB%B0%A5%EC%B2%9C%EA%B5%AD%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/17031134?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '교촌치킨 순천대점',
-    category: '음식점',
-    address: '전남 순천시 순천대2길 30',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221130_290%2F1669782289053g3gih_JPEG%2F%25B1%25B3%25C3%25CC%25C4%25A1%25C5%25B2_%25BD%25C5%25B1%25D4_BI_%25BE%25C6%25C0%25CC%25C4%25DC%2528%25C4%25AB%25C4%25AB%25BF%25C0%2529.jpg',
-    link: 'https://map.naver.com/p/search/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/11832986?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
-  {
-    name: '포포식당',
-    category: '음식점',
-    address: '전남 순천시 순천대3길 11 1층',
-    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTAyMDVfMjM3%2FMDAxNzM4NzM1NTY1Mzkz.JRZehTTjqJFKMSP-kr5C0SHLuduff8JVloedGuEUtoYg.nwHQVRqbKrqzRUJqt_bjRMzUQZIxiIuMh56la8fv7aEg.JPEG%2F1000021761.jpg.jpg%3Ftype%3Dw1500_60_sharpen',
-    link: 'https://map.naver.com/p/search/%ED%8F%AC%ED%8F%AC%EC%8B%9D%EB%8B%B9/place/1509023380?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
-  },
+  // {
+  //   name: '도야짬뽕 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 26',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMThfODUg%2FMDAxNjc0MDExMzY3MjI4.mT5mYARBXdPqTbSi7nXIngtXyCgmD3fxPNYOIDQBtxgg.7Jb8vH6SL9zpmyLHP4aSkp2rRYjiWGuE6ltdiqpJMAUg.JPEG.doyafood%2F%25B5%25B5%25BE%25DF%25C2%25AB%25BB%25CD%25B7%25CE%25B0%25ED.jpg&type=sc960_832',
+  //   link: 'https://map.naver.com/p/search/%EB%8F%84%EC%95%BC%EC%A7%AC%EB%BD%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1837174739?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '김밥천국 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 28',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20200325_223%2F1585117306684bqjYg_JPEG%2FWC3AgeVEnNEXAsXgAkTKHrSe.jpg',
+  //   link: 'https://map.naver.com/p/search/%EA%B9%80%EB%B0%A5%EC%B2%9C%EA%B5%AD%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/17031134?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '교촌치킨 순천대점',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대2길 30',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20221130_290%2F1669782289053g3gih_JPEG%2F%25B1%25B3%25C3%25CC%25C4%25A1%25C5%25B2_%25BD%25C5%25B1%25D4_BI_%25BE%25C6%25C0%25CC%25C4%25DC%2528%25C4%25AB%25C4%25AB%25BF%25C0%2529.jpg',
+  //   link: 'https://map.naver.com/p/search/%EA%B5%90%EC%B4%8C%EC%B9%98%ED%82%A8%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/11832986?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
+  // {
+  //   name: '포포식당',
+  //   category: '음식점',
+  //   address: '전남 순천시 순천대3길 11 1층',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNTAyMDVfMjM3%2FMDAxNzM4NzM1NTY1Mzkz.JRZehTTjqJFKMSP-kr5C0SHLuduff8JVloedGuEUtoYg.nwHQVRqbKrqzRUJqt_bjRMzUQZIxiIuMh56la8fv7aEg.JPEG%2F1000021761.jpg.jpg%3Ftype%3Dw1500_60_sharpen',
+  //   link: 'https://map.naver.com/p/search/%ED%8F%AC%ED%8F%AC%EC%8B%9D%EB%8B%B9/place/1509023380?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
+  // },
   {
     name: '샤브로21 순천대점',
     category: '음식점',
@@ -662,7 +654,47 @@ export const dummyPlaces: Place[] = [
     address: '전남 순천시 삼산3길 31 1층',
     imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MThfMTU2%2FMDAxNjk1MDI5NTIwMTA3.TLisEcQkA5lZuSC1cniP-0KVyMrfhtV4kTQ7fzC4HQMg.tgsPzAzBFmn67R0GA_LSA6cPMT14TQ8M2ZKbeaGGwgQg.JPEG.haree12%2FKakaoTalk_20230918_164636313_05.jpg',
     link: 'https://map.naver.com/p/entry/place/1923195601?c=15.00,0,0,0,dh'
+  },{
+    name: '찌개앤찜',
+    category: '음식점',
+    address: '전남 순천시 삼산2길 28 1층',
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDExMDdfMTM0%2FMDAxNzMwOTA1OTE4NDgw.IZVHGEGFOqKOmT3QcegPkO0k5tGOYSainH6Wp50xSlIg.F_GgfSHBBCYGMdCttkesgNnPxgQPjdwdiKR_PL9KaKMg.JPEG%2FA932F9D8-3FD1-4E1E-B327-D64F4E83C55A.jpeg%3Ftype%3Dw1500_60_sharpen',
+    link: 'https://map.naver.com/p/entry/place/31234548?lng=127.4859889&lat=34.9690625&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
   }
-  
+  // ,{
+  //   name: '서궁',
+  //   category: '음식점',
+  //   address: '전남 순천시 환선로 168-1 1층 서궁',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240911_204%2F1726021735044MUEEJ_JPEG%2F1000050603.jpg',
+  //   link: 'https://map.naver.com/p/entry/place/1811198720?lng=127.4865331&lat=34.9704179&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
+  // }
+  ,{
+    name: '도스마스 순천대점',
+    category: '음식점',
+    address: '전남 순천시 순천대1길 32',
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA4MjNfODIg%2FMDAxNzI0Mzk0NzU0NzU2.7P7nB4X1I5BWGXPtUL_o6BIZFhr9jYaX_wTiSI4Dg24g.R_HEAPuJD-yKuYWlEEY8QuPsAyTxIMQ275kPG8iaXRYg.JPEG%2F31B20728-07A6-4276-989D-EC628AAE4C26.jpeg%3Ftype%3Dw1500_60_sharpen',
+    link: 'https://map.naver.com/p/entry/place/1886847381?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=127.4850605&lat=34.9679981&c=15.00,0,0,0,dh'
+  }
+  // ,{
+  //   name: '안녕, 식당', 
+  //   category: '음식점',
+  //   address: '전라남도 순천시 순천대1길 8, 미르마루 A동 1층',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA4MjNfODIg%2FMDAxNzI0Mzk0NzU0NzU2.7P7nB4X1I5BWGXPtUL_o6BIZFhr9jYaX_wTiSI4Dg24g.R_HEAPuJD-yKuYWlEEY8QuPsAyTxIMQ275kPG8iaXRYg.JPEG%2F31B20728-07A6-4276-989D-EC628AAE4C26.jpeg%3Ftype%3Dw1500_60_sharpen',
+  //   link: 'https://map.naver.com/p/entry/place/1886847381?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=127.4850605&lat=34.9679981&c=15.00,0,0,0,dh'
+  // }
+  // ,{
+  //   name: '열정국밥',
+  //   category: '음식점',
+  //   address: '전라남도 순천시 순천대1길 36-34',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fpup-review-phinf.pstatic.net%2FMjAyNDA4MjNfODIg%2FMDAxNzI0Mzk0NzU0NzU2.7P7nB4X1I5BWGXPtUL_o6BIZFhr9jYaX_wTiSI4Dg24g.R_HEAPuJD-yKuYWlEEY8QuPsAyTxIMQ275kPG8iaXRYg.JPEG%2F31B20728-07A6-4276-989D-EC628AAE4C26.jpeg%3Ftype%3Dw1500_60_sharpen',
+  //   link: 'https://map.naver.com/p/entry/place/1886847381?placePath=%252Fhome%253Fentry%253Dplt&searchType=place&lng=127.4850605&lat=34.9679981&c=15.00,0,0,0,dh'
+  // }
+  ,{
+    name: '남매컵밥',
+    category: '음식점',
+    address: '전남 순천시 매산큰길 101 102호',
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240805_146%2F1722821448775tU6Rb_JPEG%2FIMG_2198.jpeg',
+    link: 'https://map.naver.com/p/entry/place/1364520713?lng=127.4804022&lat=34.9662542&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
+  }
   
   ];
