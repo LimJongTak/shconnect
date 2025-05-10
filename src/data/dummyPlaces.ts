@@ -302,13 +302,13 @@ export const dummyPlaces: Place[] = [
   //   imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20210610_228%2F1623304319184nv006_JPEG%2FoYIwLvm6LNQ9AVRfAAF6YmHE.jpeg.jpg',
   //   link: 'https://map.naver.com/p/search/%ED%83%9C%EB%A6%AC%EB%A1%9C%EC%A0%9C%EB%96%A1%EB%B3%B6%EC%9D%B4%26%EB%8B%AD%EA%B0%95%EC%A0%95%20%EC%88%9C%EC%B2%9C%EB%8C%80%EC%A0%90/place/1113416057?c=15.00,0,0,0,dh&placePath=%3Fentry%253Dbmp'
   // },
-  {
-    name: '홍이참숯구이',
-    category: '음식점',
-    address: '전남 순천시 환선로 168-1',
-    imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MThfMTY3%2FMDAxNjg0NDA1OTg4NTQ2.r69e5hPJ3Qg9l9m89HSpZFl2m_qDIF7OQHBz5QZQs7kg.VlA9SLrc-UoVt6JvbL2OqGXhNyHHNUTsJVIk8e3hrHsg.JPEG.jhkang6018%2F%25BC%25F8%25C3%25B5_%25C8%25AB%25C0%25CC%25C2%25FC%25BD%25A1%25B1%25B8%25C0%25CC_%25281%2529.jpg',
-    link: 'https://map.naver.com/p/search/%ED%99%8D%EC%9D%B4%EC%B0%B8%EC%88%AF%EA%B5%AC%EC%9D%B4/place/1343212749?c=15.00,0,0,0,dh&isCorrectAnswer=true'
-  },
+  // {
+  //   name: '홍이참숯구이',
+  //   category: '음식점',
+  //   address: '전남 순천시 환선로 168-1',
+  //   imageUrl: 'https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MThfMTY3%2FMDAxNjg0NDA1OTg4NTQ2.r69e5hPJ3Qg9l9m89HSpZFl2m_qDIF7OQHBz5QZQs7kg.VlA9SLrc-UoVt6JvbL2OqGXhNyHHNUTsJVIk8e3hrHsg.JPEG.jhkang6018%2F%25BC%25F8%25C3%25B5_%25C8%25AB%25C0%25CC%25C2%25FC%25BD%25A1%25B1%25B8%25C0%25CC_%25281%2529.jpg',
+  //   link: 'https://map.naver.com/p/search/%ED%99%8D%EC%9D%B4%EC%B0%B8%EC%88%AF%EA%B5%AC%EC%9D%B4/place/1343212749?c=15.00,0,0,0,dh&isCorrectAnswer=true'
+  // },
   {
     name: '맛있는한끼미광',
     category: '음식점',
