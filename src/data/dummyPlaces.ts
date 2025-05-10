@@ -695,6 +695,12 @@ export const dummyPlaces: Place[] = [
     address: '전남 순천시 매산큰길 101 102호',
     imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20240805_146%2F1722821448775tU6Rb_JPEG%2FIMG_2198.jpeg',
     link: 'https://map.naver.com/p/entry/place/1364520713?lng=127.4804022&lat=34.9662542&placePath=%2Fhome&entry=plt&searchType=place&c=15.00,0,0,0,dh'
+  },{
+    name: '육회왕자연어공주 순천용당점',
+    category: '음식점',
+    address: '전남 순천시 순천대2길 10-7 1층',
+    imageUrl: 'https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220307_153%2F1646643731403246dk_JPEG%2F%25B4%25EB%25C7%25A5%25BB%25E7%25C1%25F8.jpg',
+    link: 'https://map.naver.com/p/entry/place/1285445070?lng=127.485217&lat=34.9686844&placePath=%2Fhome&searchType=place&c=15.00,0,0,0,dh'
   }
   
   ];
